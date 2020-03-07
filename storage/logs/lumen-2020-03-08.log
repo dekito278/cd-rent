@@ -1,0 +1,380 @@
+[2020-03-08 11:34:29] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:35:12] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:45:00] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:45:43] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Str' not found in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Str' not found at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:45:53] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Str' not found in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Str' not found at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:46:15] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:46:16] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:46:17] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:46:17] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:46:17] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-03-08 11:52:21] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ';' in C:\xampp\htdocs\rent-cd\routes\web.php:20
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Routing\Router))
+#1 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func(Object(Closure), Object(Laravel\Lumen\Routing\Router))
+#2 C:\xampp\htdocs\rent-cd\bootstrap\app.php(111): Laravel\Lumen\Routing\Router->group(Array, Object(Closure))
+#3 C:\xampp\htdocs\rent-cd\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ent-cd\outes\\web.php:20)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\xampp\\htdocs\ent-cd\\bootstrap\\app.php(111): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\xampp\\htdocs\ent-cd\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
+[2020-03-08 11:52:33] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ';' in C:\xampp\htdocs\rent-cd\routes\web.php:20
+Stack trace:
+#0 [internal function]: {closure}(Object(Laravel\Lumen\Routing\Router))
+#1 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Routing\Router.php(62): call_user_func(Object(Closure), Object(Laravel\Lumen\Routing\Router))
+#2 C:\xampp\htdocs\rent-cd\bootstrap\app.php(111): Laravel\Lumen\Routing\Router->group(Array, Object(Closure))
+#3 C:\xampp\htdocs\rent-cd\public\index.php(14): require('C:\\xampp\\htdocs...')
+#4 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ent-cd\outes\\web.php:20)
+[stacktrace]
+#0 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#2 C:\\xampp\\htdocs\ent-cd\\bootstrap\\app.php(111): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#3 C:\\xampp\\htdocs\ent-cd\\public\\index.php(14): require('C:\\\\xampp\\\\htdocs...')
+#4 {main}
+"} 
+[2020-03-08 11:52:46] local.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function Str_random() in C:\xampp\htdocs\rent-cd\routes\web.php:19
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Util.php(36): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(78): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#4 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\BoundMethod.php(34): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\rent-cd\vendor\illuminate\container\Container.php(590): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(289): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(263): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(165): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(416): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(171): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\rent-cd\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(108): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\rent-cd\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main} {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Str_random() at C:\\xampp\\htdocs\ent-cd\outes\\web.php:19)
+[stacktrace]
+#0 [internal function]: Closure->{closure}()
+#1 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#2 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(78): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Object(Closure), Object(Closure))
+#5 C:\\xampp\\htdocs\ent-cd\\vendor\\illuminate\\container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Object(Closure), Array, NULL)
+#6 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(289): Illuminate\\Container\\Container->call(Object(Closure), Array)
+#7 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(263): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(165): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#9 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(416): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\\xampp\\htdocs\ent-cd\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(108): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 C:\\xampp\\htdocs\ent-cd\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
