@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Cd;
+use App\Models\ProductCd;
 use Illuminate\Http\Request;
 
 class CostumerController extends Controller
