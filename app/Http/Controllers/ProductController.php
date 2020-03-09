@@ -17,9 +17,9 @@ class ProductController extends Controller
 
     //return all CD's collecion.
     public function index() {
-        $cds = $this->cd->all();
+        $products_cd = $this->cd->all();
 
-        return $cds;
+        return $products_cd;
     }
 
     //return a spesific CD
