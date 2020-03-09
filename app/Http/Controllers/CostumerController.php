@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ProductCd;
+use App\Models\Costumer;
 use Illuminate\Http\Request;
 
 class CostumerController extends Controller
@@ -17,9 +17,9 @@ class CostumerController extends Controller
 
     //return all CD's collecion.
     public function index() {
-        $cds = $this->cd->all();
+        $products_cd = $this->cd->all();
 
-        return $cds;
+        return $products_cd;
     }
 
     //return a spesific CD
